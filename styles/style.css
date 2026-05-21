@@ -68,6 +68,9 @@
 }
 
 .cover-title {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     font-weight: 700;
     font-size: 100px;
     line-height: 115px;
