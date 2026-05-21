@@ -1,1 +1,248 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 95px 50px;
+    font-size: 18px;
+}
+
+.header-nav-list {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    list-style: circle;
+    list-style-position: inside;
+}
+
+.header-nav-item {
+    text-transform: lowercase;
+}
+
+.header-nav-item:first-child {
+    list-style: none;
+}
+
+.header-nav-item-content-active {
+    text-decoration: none;
+}
+
+.header-logo {
+    display: block;
+    width: 129px;
+}
+
+.address {
+    max-width: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header-address {
+    justify-self: end;
+}
+
+.container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+.cover {
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    padding-top: 165px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.cover-title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    letter-spacing: 30%;
+    margin-bottom: 106px;
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text-left {
+    text-align: left;
+}
+
+.aligned-text-center {
+    text-align: center;
+}
+
+.aligned-text-right {
+    text-align: right;
+}
+
+.cover-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cover-description-text {
+    font-size: 22px;
+    line-height: 28px;
+    word-spacing: 90%;
+}
+
+.bid-button {
+    border: 1px solid #fff;
+    padding: 12px 32px;
+    font-size: 22px;
+    background: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lots {
+    padding: 180px 24px 120px;
+}
+
+.lots-title {
+    margin-bottom: 27px;
+}
+
+.lots-card-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.lots-card-list-item {
+    width: 334px;
+    min-height: 50px;
+}
+
+.lots-card-container-link {
+    height: 100%;
+    display: block;
+}
+
+.lots-card {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.lots-card-film {
+    background-image: url("../images/card-lot-01.jpg");
+}
+
+.lots-card-book {
+    background-image: url("../images/card-lot-02.jpg");
+}
+
+.lots-card-pic {
+    background-image: url("../images/card-lot-03.jpg");
+}
+
+.lots-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    color: #fff;
+    padding: 48px 40px;
+    height: 100%;
+}
+
+.lots-card-title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 120%;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.lots-card-text {
+    line-height: 120%;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 334px 1fr;
+    gap: 25px;
+    padding: 35px 24px 180px;
+}
+
+.about-left {
+    justify-self: center;
+}
+
+.about-logo-container {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-logo {
+    width: 148px;
+}
+
+.about-title {
+    margin: 100px 0;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    line-height: 24px;
+}
+
+.footer {
+    padding: 0 50px 82px;
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    font-size: 18px;
+}
+
+.footer-nav-list {
+    list-style: none;
+}
+
+.footer-nav-item-content {
+    white-space: nowrap;
+}
+
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 48px;
+}
+
+.social-link-icon {
+    width: 48px;
+    height: 48px;
+}
