@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 95px 50px;
+    padding: 102px 50px 98px;
     font-size: 18px;
 }
 
@@ -22,7 +22,7 @@
     list-style: none;
 }
 
-.header-nav-item-content-active {
+.nav-item-active {
     text-decoration: none;
 }
 
@@ -36,6 +36,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-style: normal;
+    line-height: 24.3px;
 }
 
 .header-address {
@@ -94,6 +96,10 @@
     text-align: right;
 }
 
+.letter-spacing-default {
+    letter-spacing: normal;
+}
+
 .cover-description {
     display: flex;
     justify-content: space-between;
@@ -103,7 +109,7 @@
 .cover-description-text {
     font-size: 22px;
     line-height: 28px;
-    word-spacing: 90%;
+    word-spacing: 84%;
 }
 
 .bid-button {
@@ -127,12 +133,14 @@
 
 .lots-title {
     margin-bottom: 27px;
+    margin-left: 40px;
 }
 
 .lots-card-list {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
     margin-bottom: 30px;
 }
 
@@ -184,6 +192,11 @@
 
 .lots-card-text {
     line-height: 120%;
+    text-decoration: none;
+}
+
+.lots-show-more-btn {
+    margin-left: 40px;
 }
 
 .about {
@@ -226,16 +239,16 @@
     padding: 0 50px 82px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
-    align-items: center;
     font-size: 18px;
 }
 
 .footer-nav-list {
     list-style: none;
+    text-align: center;
 }
 
 .footer-nav-item-content {
-    white-space: nowrap;
+    text-transform: lowercase;
 }
 
 .social-links {
