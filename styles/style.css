@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 102px 50px 98px;
+    padding: 92px 50px 96px;
     font-size: 18px;
 }
 
