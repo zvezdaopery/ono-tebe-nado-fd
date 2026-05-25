@@ -146,12 +146,13 @@
 
 .lots-card-list-item {
     width: 334px;
-    min-height: 50px;
+    min-height: 596px;
 }
 
 .lots-card-container-link {
     height: 100%;
     display: block;
+    text-decoration: none;
 }
 
 .lots-card {
